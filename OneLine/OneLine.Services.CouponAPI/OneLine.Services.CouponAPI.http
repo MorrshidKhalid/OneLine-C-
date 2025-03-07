@@ -1,0 +1,6 @@
+@OneLine.Services.CouponAPI_HostAddress = http://localhost:5151
+
+GET {{OneLine.Services.CouponAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

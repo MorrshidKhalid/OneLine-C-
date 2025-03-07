@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{19BF3554-1957-40B5-BEE8-CBE01BAD291B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{39BF771E-9A1B-40F2-BD6D-A3670123C722}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{F4E7F370-11F0-493B-BB9B-9EDC9E53DF6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{81AF9EFD-671B-4C6A-A7D2-99466E6B7280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneLine.Services.CouponAPI", "OneLine.Services.CouponAPI\OneLine.Services.CouponAPI.csproj", "{FD0E0C95-F81F-4D3F-BBE7-F16BEC4E1BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneLine.Wep", "OneLine.Wep\OneLine.Wep.csproj", "{1AA7BFAF-4F51-4AE4-96CB-4D9B2F203A65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD0E0C95-F81F-4D3F-BBE7-F16BEC4E1BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0E0C95-F81F-4D3F-BBE7-F16BEC4E1BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0E0C95-F81F-4D3F-BBE7-F16BEC4E1BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0E0C95-F81F-4D3F-BBE7-F16BEC4E1BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA7BFAF-4F51-4AE4-96CB-4D9B2F203A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA7BFAF-4F51-4AE4-96CB-4D9B2F203A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA7BFAF-4F51-4AE4-96CB-4D9B2F203A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA7BFAF-4F51-4AE4-96CB-4D9B2F203A65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD0E0C95-F81F-4D3F-BBE7-F16BEC4E1BF2} = {81AF9EFD-671B-4C6A-A7D2-99466E6B7280}
+		{1AA7BFAF-4F51-4AE4-96CB-4D9B2F203A65} = {19BF3554-1957-40B5-BEE8-CBE01BAD291B}
+	EndGlobalSection
+EndGlobal

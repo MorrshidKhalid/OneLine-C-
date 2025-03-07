@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Run Multiple",
+    "Projects": [
+      {
+        "Path": "OneLine.Services.CouponAPI\\OneLine.Services.CouponAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "OneLine.Wep\\OneLine.Wep.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]

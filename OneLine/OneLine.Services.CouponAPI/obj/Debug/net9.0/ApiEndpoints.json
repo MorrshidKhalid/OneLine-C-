@@ -1,0 +1,194 @@
+[
+  {
+    "ContainingType": "OneLine.Services.CouponAPI.Controllers.CouponController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/v1/coupon/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OneLine.Services.CouponAPI.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "all"
+  },
+  {
+    "ContainingType": "OneLine.Services.CouponAPI.Controllers.CouponController",
+    "Method": "GetByCodeAsync",
+    "RelativePath": "api/v1/coupon/code/{code}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OneLine.Services.CouponAPI.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "findByCode"
+  },
+  {
+    "ContainingType": "OneLine.Services.CouponAPI.Controllers.CouponController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/v1/coupon/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OneLine.Services.CouponAPI.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "deleteById"
+  },
+  {
+    "ContainingType": "OneLine.Services.CouponAPI.Controllers.CouponController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/v1/coupon/delete/code/{code}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OneLine.Services.CouponAPI.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "deleteByCode"
+  },
+  {
+    "ContainingType": "OneLine.Services.CouponAPI.Controllers.CouponController",
+    "Method": "CreateCoupon",
+    "RelativePath": "api/v1/coupon/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coupon",
+        "Type": "OneLine.Services.CouponAPI.Models.DTO.InsertUpdateCoupon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OneLine.Services.CouponAPI.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "insert_coupon"
+  },
+  {
+    "ContainingType": "OneLine.Services.CouponAPI.Controllers.CouponController",
+    "Method": "RenewCoupon",
+    "RelativePath": "api/v1/coupon/renew/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OneLine.Services.CouponAPI.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "renew_coupun"
+  },
+  {
+    "ContainingType": "OneLine.Services.CouponAPI.Controllers.CouponController",
+    "Method": "UpdateCoupon",
+    "RelativePath": "api/v1/coupon/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "wishToUpdate",
+        "Type": "OneLine.Services.CouponAPI.Models.DTO.InsertUpdateCoupon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OneLine.Services.CouponAPI.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
